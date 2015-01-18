@@ -7,7 +7,10 @@
     <authors>$author$</authors>
     <owners>$author$</owners>
     <projectUrl>http://github.com/ashmind/infoof</projectUrl>
-    <description>$description$</description>
+    <description>
+      A small set of methods that help getting MemberInfo using lambda expressions.
+      Example: Info.PropertyOf&lt;YourClass&gt;(c => c.YourProperty);
+    </description>
     <copyright>Copyright (c) $author$ 2015</copyright>
     <tags>infoof methodof propertyof fieldof reflection lambda strongly-typed</tags>
   </metadata>

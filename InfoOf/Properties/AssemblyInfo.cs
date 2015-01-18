@@ -6,7 +6,7 @@ using InfoOf.Properties;
 [assembly: AssemblyTitle("InfoOf")]
 [assembly: AssemblyDescription(@"
     A small set of methods that help getting MemberInfo using lambda expressions.  
-    Example: Info.PropertyOf<MyClass>(c => c.MyProperty);
+    Example: Info.PropertyOf<YourClass>(c => c.YourProperty);
 ")]
 [assembly: AssemblyCompany("Andrey Shchekin")]
 [assembly: AssemblyProduct("InfoOf")]

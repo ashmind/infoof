@@ -1,0 +1,1 @@
+nuget pack InfoOf/InfoOf.csproj -Build -Properties Configuration=Release
