@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>http://github.com/ashmind/infoof</projectUrl>
+    <description>$description$</description>
+    <copyright>Copyright (c) $author$ 2015</copyright>
+    <tags>infoof methodof propertyof fieldof reflection lambda strongly-typed</tags>
+  </metadata>
+</package>
