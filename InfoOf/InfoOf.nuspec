@@ -10,7 +10,14 @@
     <description>
       A small set of methods that help getting MemberInfo using lambda expressions.
       Example: Info.PropertyOf&lt;YourClass&gt;(c => c.YourProperty);
+
+      Releases:
+
+      1.1 Added some convenience overloads for the case when you already have Expression&lt;Func&lt;T, TResult&gt;&gt;.
     </description>
+    <releaseNotes>
+      Added some convenience overloads for the case when you already have Expression&lt;Func&lt;T, TResult&gt;&gt;.
+    </releaseNotes>
     <copyright>Copyright (c) $author$ 2015</copyright>
     <tags>infoof methodof propertyof fieldof reflection lambda strongly-typed</tags>
   </metadata>

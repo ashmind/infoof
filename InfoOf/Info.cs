@@ -13,18 +13,38 @@ namespace InfoOf {
         }
 
         [NotNull]
+        public static PropertyInfo PropertyOf<TResult>([NotNull] Expression<Func<TResult>> reference) {
+            return NonCallMember<PropertyInfo>(reference, "property");
+        }
+
+        [NotNull]
         public static PropertyInfo PropertyOf<T>([NotNull] Expression<Func<T, object>> reference) {
             return NonCallMember<PropertyInfo>(reference, "property");
         }
 
         [NotNull]
+        public static PropertyInfo PropertyOf<T, TResult>([NotNull] Expression<Func<T, TResult>> reference) {
+            return NonCallMember<PropertyInfo>(reference, "property");
+        }
+
+        [NotNull]
         public static FieldInfo FieldOf([NotNull] Expression<Func<object>> reference) {
-            return NonCallMember<FieldInfo>(reference, "property");
+            return NonCallMember<FieldInfo>(reference, "field");
+        }
+        
+        [NotNull]
+        public static FieldInfo FieldOf<TResult>([NotNull] Expression<Func<TResult>> reference) {
+            return NonCallMember<FieldInfo>(reference, "field");
         }
 
         [NotNull]
         public static FieldInfo FieldOf<T>([NotNull] Expression<Func<T, object>> reference) {
-            return NonCallMember<FieldInfo>(reference, "property");
+            return NonCallMember<FieldInfo>(reference, "field");
+        }
+        
+        [NotNull]
+        public static FieldInfo FieldOf<T, TResult>([NotNull] Expression<Func<T, TResult>> reference) {
+            return NonCallMember<FieldInfo>(reference, "field");
         }
 
         [NotNull]

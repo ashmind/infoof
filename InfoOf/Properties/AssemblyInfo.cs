@@ -36,6 +36,6 @@ using InfoOf.Properties;
 
 namespace InfoOf.Properties {
     internal static class AssemblyInfo {
-        public const string VersionString = "1.0.0";
+        public const string VersionString = "1.1.0";
     }
 }
