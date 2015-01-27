@@ -5,3 +5,7 @@ Example:
 
 I'm pretty sure I've seen other libraries for that before, but now I can't find them.  
 [LambdaReflection](https://github.com/Suremaker/LambdaReflection) looks cool, but brings in the whole DelegateDecompiler, which feels like an overkill.
+
+**[NuGet](https://www.nuget.org/packages/InfoOf/):**
+
+    Install-Package InfoOf 
